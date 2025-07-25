@@ -132,37 +132,36 @@ const techStack = {
 };
 
 // Work experience section
-
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Pronttera",
+      companylogo: require("./assets/images/pronttera_logo.jpeg"),
+      date: "December 2024 – Present",
+      desc: "Working as a frontend-focused Software Developer, contributing to UI design, implementation, and integration of APIs for dynamic web applications.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built responsive, scalable components using React.js",
+        "Integrated REST APIs to enhance data-driven functionality",
+        "Collaborated with backend team to optimize data flow and performance"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Android & Frontend Developer",
+      company: "Zerox Cloud",
+      companylogo: require("./assets/images/ZeroxCloudLogo.png"),
+      date: "September 2024 – Present",
+      desc: "Assisted in building the official Zerox Cloud mobile application, expected to launch in September. Contributed to both Android app development and frontend web modules.",
+      descBullets: [
+        "Developed UI components using React Native for Android platform",
+        "Built reusable React.js frontend modules for web dashboard",
+        "Collaborated on app logic, API integration, and deployment strategy"
+      ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
