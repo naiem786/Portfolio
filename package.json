@@ -1,6 +1,5 @@
 {
   "homepage": "https://naiem786.github.io/Portfolio",
-  
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +9,7 @@
     "enzyme-adapter-react-16": "^1.15.6",
     "jest-canvas-mock": "^2.3.1",
     "lottie-react": "^2.4.0",
+    "meta-mosaic": "^1.0.9",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.8.1",
@@ -20,16 +20,14 @@
     "react-twitter-embed": "3.0.3",
     "sass": "^1.32.8"
   },
- 
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy":   "gh-pages -d build",
-  "start":    "react-scripts start",
-  "build":    "react-scripts build",
-  "test":     "react-scripts test",
-  "eject":    "react-scripts eject"
-},
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },

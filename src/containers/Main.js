@@ -19,6 +19,7 @@ import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
+import OpenSource from "./OpenSource/OpenSource";
 import "./Main.scss";
 
 const Main = () => {
@@ -56,6 +57,7 @@ const Main = () => {
             <StackProgress />
             <Education />
             <WorkExperience />
+            <OpenSource />
             <Projects />
             <StartupProject />
             <Achievement />

@@ -62,87 +62,67 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+ softwareSkills: [
+  { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
+  { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+  { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+  { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
+  { skillName: "React Native", fontAwesomeClassname: "fab fa-react" },
+  { skillName: "Tailwind CSS", fontAwesomeClassname: "fas fa-paint-brush" },
+  { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+  { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
+  { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
+  { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
+  { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+  { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+  { skillName: "ServiceNow", fontAwesomeClassname: "fas fa-tools" }
+]
+,
   display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Dr. Vishwanath Karad MIT World Peace University",
+      logo: require("./assets/images/MitLogo.jpg"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "July 2022 - June 2024",
+      desc: "CGPA: 8.27 / 10 | Ranked 9th out of 160 students in the batch.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Studied DevOps, Data Structures & Algorithms, and Android Development",
+        "Worked on full-stack development projects using React, Node.js, and MongoDB"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "AKI's Poona College of Arts, Science & Commerce",
+      logo: require("./assets/images/PoonaCollegeLogo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "June 2019 - June 2022",
+      desc: "CGPA: 9.45 / 10 | Graduated with top 10% academic distinction.",
+      descBullets: [
+        "Focused on Web Development, C Programming, Python, and Data Science",
+        "Built foundational skills in software engineering and system design"
+      ]
     }
+  ]
+};
+
+const openSource = {
+  showGithubProfile: "true", // Show GitHub profile under Contact
+  display: true, // ✅ Make it visible
+
+  contributions: [
+    {
+      title: "Meta Mosaic",
+      description:
+        "Contributed to an open-source React component library for easily embedding SEO-friendly metadata into single-page applications.",
+      githubRepo: "https://github.com/A-Coder02/meta-mosaic",
+      npmLink: "https://www.npmjs.com/package/meta-mosaic"
+    }
+    // You can add more projects like this if needed
   ]
 };
 
@@ -168,45 +148,41 @@ const techStack = {
 };
 
 // Work experience section
-
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Pronttera",
+      companylogo: require("./assets/images/pronttera_logo.jpeg"),
+      date: "December 2024 – Present",
+      desc: "Working as a frontend-focused Software Developer, contributing to UI design, implementation, and integration of APIs for dynamic web applications.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built responsive, scalable components using React.js",
+        "Integrated REST APIs to enhance data-driven functionality",
+        "Collaborated with backend team to optimize data flow and performance"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Android & Frontend Developer",
+      company: "Zerox Cloud",
+      companylogo: require("./assets/images/ZeroxCloudLogo.png"),
+      date: "September 2024 – Present",
+      desc: "Assisted in building the official Zerox Cloud mobile application, expected to launch in September. Contributed to both Android app development and frontend web modules.",
+      descBullets: [
+        "Developed UI components using React Native for Android platform",
+        "Built reusable React.js frontend modules for web dashboard",
+        "Collaborated on app logic, API integration, and deployment strategy"
+      ]
     }
   ]
 };
 
+
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
-const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
+
 
 // Some big projects you have worked on
 
@@ -238,7 +214,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false  // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -299,7 +275,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false  // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -323,7 +299,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false  // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -342,7 +318,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false  // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -355,7 +331,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false  // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -364,22 +340,22 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false  // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9325538129",
+  email_address: "naiemshaikhoff@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false  // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -393,13 +369,13 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
   bigProjects,
   achievementSection,
   blogSection,
   talkSection,
   podcastSection,
   contactInfo,
+  openSource,
   twitterDetails,
   isHireable,
   resumeSection
