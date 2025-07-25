@@ -110,6 +110,22 @@ const educationInfo = {
   ]
 };
 
+const openSource = {
+  showGithubProfile: "true", // Show GitHub profile under Contact
+  display: true, // ✅ Make it visible
+
+  contributions: [
+    {
+      title: "Meta Mosaic",
+      description:
+        "Contributed to an open-source React component library for easily embedding SEO-friendly metadata into single-page applications.",
+      githubRepo: "https://github.com/A-Coder02/meta-mosaic",
+      npmLink: "https://www.npmjs.com/package/meta-mosaic"
+    }
+    // You can add more projects like this if needed
+  ]
+};
+
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -166,10 +182,7 @@ const workExperiences = {
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
-const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
-};
+
 
 // Some big projects you have worked on
 
@@ -356,13 +369,13 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
   bigProjects,
   achievementSection,
   blogSection,
   talkSection,
   podcastSection,
   contactInfo,
+  openSource,
   twitterDetails,
   isHireable,
   resumeSection
