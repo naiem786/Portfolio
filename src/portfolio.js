@@ -62,86 +62,50 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+ softwareSkills: [
+  { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
+  { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+  { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+  { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
+  { skillName: "React Native", fontAwesomeClassname: "fab fa-react" },
+  { skillName: "Tailwind CSS", fontAwesomeClassname: "fas fa-paint-brush" },
+  { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+  { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
+  { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
+  { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
+  { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+  { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+  { skillName: "ServiceNow", fontAwesomeClassname: "fas fa-tools" }
+]
+,
   display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Dr. Vishwanath Karad MIT World Peace University",
+      logo: require("./assets/images/MitLogo.jpg"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "July 2022 - June 2024",
+      desc: "CGPA: 8.27 / 10 | Ranked 9th out of 160 students in the batch.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Studied DevOps, Data Structures & Algorithms, and Android Development",
+        "Worked on full-stack development projects using React, Node.js, and MongoDB"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "AKI's Poona College of Arts, Science & Commerce",
+      logo: require("./assets/images/PoonaCollegeLogo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "June 2019 - June 2022",
+      desc: "CGPA: 9.45 / 10 | Graduated with top 10% academic distinction.",
+      descBullets: [
+        "Focused on Web Development, C Programming, Python, and Data Science",
+        "Built foundational skills in software engineering and system design"
+      ]
     }
   ]
 };
